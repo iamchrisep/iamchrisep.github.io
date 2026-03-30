@@ -39,7 +39,11 @@ export function HeroSection() {
                             >
                                 {SITE_CONTENT.hero.secondaryCta.label}
                             </ButtonLink>
-                            <ButtonLink href={SITE_CONTENT.hero.tertiaryCta.href} variant="ghost">
+                            <ButtonLink
+                                href={SITE_CONTENT.hero.tertiaryCta.href}
+                                variant="ghost"
+                                external
+                            >
                                 {SITE_CONTENT.hero.tertiaryCta.label}
                             </ButtonLink>
                         </div>

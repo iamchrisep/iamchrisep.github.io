@@ -17,7 +17,8 @@ export function ContactSection() {
                     aria-label="Contact links"
                 >
                     {SITE_CONTENT.contact.links.map((link, index) => {
-                        const external = link.href.startsWith("http");
+                        const external =
+                            link.href.startsWith("http") || link.href.startsWith("/CV");
                         return (
                             <li key={link.label}>
                                 <ButtonLink

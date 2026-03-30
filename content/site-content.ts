@@ -15,12 +15,12 @@ export const SITE_CONTENT = {
         email: "krystsina.bahdanava@gmail.com",
         linkedinUrl: "https://www.linkedin.com/in/iamchrisep/",
         githubUrl: "https://github.com/iamchrisep",
-        cvUrl: "/cv.pdf",
+        cvUrl: "/CV_Krystsina_Bahdanava_Frontend.pdf",
     },
     hero: {
         primaryCta: { label: "View Projects", href: "#projects" },
         secondaryCta: { label: "LinkedIn", href: "https://www.linkedin.com/in/iamchrisep/" },
-        tertiaryCta: { label: "Download CV", href: "/cv.pdf" },
+        tertiaryCta: { label: "Download CV", href: "/CV_Krystsina_Bahdanava_Frontend.pdf" },
         metrics: [
             { value: "9+", label: "Years in software development" },
             { value: "2017", label: "Frontend specialization since" },
@@ -130,7 +130,7 @@ export const SITE_CONTENT = {
             { label: "LinkedIn", href: "https://www.linkedin.com/in/iamchrisep/" },
             { label: "Email", href: "mailto:krystsina.bahdanava@gmail.com" },
             { label: "GitHub", href: "https://github.com/iamchrisep" },
-            { label: "Download CV", href: "/cv.pdf" },
+            { label: "Download CV", href: "/CV_Krystsina_Bahdanava_Frontend.pdf" },
         ],
     },
 } as const;
