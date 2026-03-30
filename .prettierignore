@@ -1,0 +1,17 @@
+.idea
+
+node_modules
+.next
+out
+dist
+coverage
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+public
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.webp
